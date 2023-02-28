@@ -1,0 +1,22 @@
+*{
+    border: 2px solid red;
+
+}
+body{
+    box-sizing: border-box;
+}
+#head{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.nav > .list{
+    display: flex;
+    justify-content: space-between;
+    padding:16px;
+    
+}
+.logo{
+    flex: 1;
+}
