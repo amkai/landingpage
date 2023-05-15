@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <script src="script.js"></script>
     <link href="style.css" rel="stylesheet"/>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Landing Page</title>
+    <title>Final Project</title>
 </head>
 <body>
     <div class="daddy">
@@ -16,7 +17,7 @@
             <ul class="list1">
                 <li><a href="#contact">Contact</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="joinus/joinus.html">Sign up</a></li>
+                <li><a href="/login/login.html">Log in</a></li>
             </ul>
     
         </div>
@@ -28,11 +29,11 @@
                 </h2>
     
                 <p class="para">
-                English Baatcheet is a one stop solution to learn English and improve your overall communication skills.
+                English Baatcheet is a one stop solution to learn English and improve your overall communication skills.whs
                 Grow your personality and increase your vocabulary with simple and easy exercises. Achieve your true potential with our personalized Courses.
                 </p>
 
-                <button type="button">Sign In</button>
+                <button type="button" id="button" ><a href="/joinus/joinus.html">Sign In</a></button>
             </div>
 
             <div class="img">
@@ -103,12 +104,50 @@
     
     <div class="bbydaddy">
         <div class="txt" id="contact">
-            <p>
-                Mobile number - 91 9xxxxx0101
-                <br><br>
-                Email - amiteshkainth@gmail
-            </p>    
-           
+            
+            <div class="contactmediv">
+                <div class="contact1">
+                    <p class="aboutme">
+                    Contact the Creator of this amazing website!!
+                </p>
+                </div>
+                
+                <form id="contactform">
+                    <div class="contact2">
+                        <label for="email">
+                            Email:
+                        </label>
+                        <input id="email" name="email" type="email">
+                         <label for="rating">
+                        Rate this Site:
+                    </label>
+                    <select id="rating">
+                        <option value="Awesome!!">Awesome!!</option>
+                        <option value="Nice">Nice</option>
+                        <option value="Notgood">Needs work</option>
+                        <option value="bad">I don't like this shit man!!</option>
+                    </select>
+                    </div>
+                   
+                   <div class="div4">
+                    <label for="yourmessage">Your message</label><br>
+                    <textarea id="yourmessage" rows="4"cols="40">Any suggestions</textarea>
+                   </div>
+                   <input type="submit" value="Contact me"
+                    
+                </form>
+                
+            </div>
+            <div class="imgalign">
+                <img src="/images/oie_7kwqqTo184oT.jpg" height="200px" width="200px" id="mypic">
+                <p>
+                    Amitesh Kainth
+                </p>
+                <p>
+                    ~FullStack Developer
+                </p>
+            </div>
+         
         </div>
            
                 
